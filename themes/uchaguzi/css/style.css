@@ -248,8 +248,9 @@ header#global-header hgroup h1 a {
 }
 
 header#global-header hgroup .logo a {
+   color: #000000;
    display: inline-block;
-   width: 200px;
+   width: 400px;
    margin-top: -0.2em;
 }
 
