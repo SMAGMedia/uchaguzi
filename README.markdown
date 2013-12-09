@@ -1,3 +1,11 @@
+UCHAGUZI Install integrated with the SMAG Network
+================================================
+
+Development version hosted at http://uchaguzi-dev.smagmedia.net
+
+Sando - 12/08/2013
+
+
 Ushahidi Platform
 =================
 The Ushahidi Platform is an open source web application for information collection, vizualisation and interactive 
