@@ -14,6 +14,9 @@
 
 	<script type="text/javascript">
 
+     // TODO: Add Google Analytics
+     // Modified 12/08/2013 - Sando
+
 	 // var _gaq = _gaq || [];
 	 // _gaq.push(['_setAccount', 'UA-12063676-17']);
 	 // _gaq.push(['_setDomainName', 'www.uchaguzi.co.ke']);
