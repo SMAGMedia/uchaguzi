@@ -26,7 +26,7 @@ if (file_exists('maintenance.php'))
  *
  * @see http://docs.kohanaphp.com/installation/deployment
  */
-define('IN_PRODUCTION', TRUE);
+define('IN_PRODUCTION', FALSE);
 
 /**
  * Website application directory. This directory should contain your application
@@ -34,7 +34,7 @@ define('IN_PRODUCTION', TRUE);
  *
  * This path can be absolute or relative to this file.
  */
-$kohana_application = 'application';
+$kohana_application = '/var/www/html/application';
 
 /**
  * Kohana modules directory. This directory should contain all the modules used
@@ -43,7 +43,7 @@ $kohana_application = 'application';
  *
  * This path can be absolute or relative to this file.
  */
-$kohana_modules = 'modules';
+$kohana_modules = '/var/www/html/modules';
 
 /**
  * Kohana system directory. This directory should contain the core/ directory,
@@ -51,28 +51,28 @@ $kohana_modules = 'modules';
  *
  * This path can be absolute or relative to this file.
  */
-$kohana_system = 'system';
+$kohana_system = '/var/www/html/system';
 
 /**
  * Themes directory.
  *
  * This path can be absolute or relative to this file.
  */
-$kohana_themes = 'themes';
+$kohana_themes = '/var/www/html/themes';
 
 /**
  * Plugin directory.
  *
  * This path can be absolute or relative to this file.
  */
-$kohana_plugins = 'plugins';
+$kohana_plugins = '/var/www/html/plugins';
 
 /**
  * Media directory.
  *
  * This path can be absolute or relative to this file.
  */
-$kohana_media = 'media';
+$kohana_media = '/var/www/html/media';
 
 /**
  * Test to make sure that Kohana is running on PHP 5.2 or newer. Once you are

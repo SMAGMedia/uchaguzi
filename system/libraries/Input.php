@@ -318,8 +318,9 @@ class Input_Core {
 
 				// Set configuration
 				$config = HTMLPurifier_Config::createDefault();
-				$config->set('HTML', 'TidyLevel', 'none'); // Only XSS cleaning now
-
+				//$config->set('HTML', 'TidyLevel', 'none'); // Only XSS cleaning now
+				$config->set('HTML.TidyLevel', 'none'); // Only XSS cleaning now -- Added by Sando 12/08/2013
+				
 				// Run HTMLPurifier
 				$data = HTMLPurifier($data, $config);
 			break;
