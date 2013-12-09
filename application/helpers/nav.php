@@ -128,26 +128,40 @@ class nav_Core {
 			//$menu .= ($this_page == 'home') ? " class=\"active\"" : "";
 		 	$menu .= ">".Kohana::lang('ui_main.home')."</a></li>";
 
+
+        // COMMENT: Modify menu for MEIC - 12/08/2013 Sando
+
 		// Citizen Reports
-			$menu .= "<li><a href=\"".url::site()."reports\" ";
-			//$menu .= ($this_page == 'reports') ? " class=\"active\"" : "";
-		 	$menu .= ">".Kohana::lang('uchaguzi.citizen_reports')."</a></li>";
+		//	$menu .= "<li><a href=\"".url::site()."reports\" ";
+		//	//$menu .= ($this_page == 'reports') ? " class=\"active\"" : "";
+		// 	$menu .= ">".Kohana::lang('uchaguzi.citizen_reports')."</a></li>";
+
+        // HIVOS - Citizens Reports
+        	$menu .= "<li><a href=\"".url::site()."reports\" ";
+        	//$menu .= ($this_page == 'reports') ? " class=\"active\"" : "";
+         	$menu .= ">".Kohana::lang('uchaguzi.citizen_reports')."</a></li>";
 		
 		// Situation Room
-			
-			$menu .= "<li><a href='http://sitroom.uchaguzi.co.ke/'>Situation
-			Room</a></li>";	
+		//	$menu .= "<li><a href='http://sitroom.uchaguzi.co.ke/'>Situation
+		//	Room</a></li>";
+
+        // Malawi Elections Information Centre - SNAPSHOT
+        // TODO: Add analytics and Google short URL
+        // TODO: Add url for observation SNAPSHOT
+            $menu .= "<li><a href='http://malawivote2014.org'>MEIC</a></li>";
 
 		// Visuals
-			
-			$menu .= "<li><a
-			href='http://visuals.uchaguzi.co.ke/'>Visuals</a></li>";	
+		//	$menu .= "<li><a
+		//	href='http://visuals.uchaguzi.co.ke/'>Visuals</a></li>";
 	
 		// Results
-			
-			$menu .= "<li><a
-			href='http://results.uchaguzi.co.ke/'>Results</a></li>";	
+		//	$menu .= "<li><a
+		//	href='http://results.uchaguzi.co.ke/'>Results</a></li>";
 
+        // Malawi Elections Information Centre - UN-OFFICIAL RESULTS
+        // TODO: Add analytics and Google short URL
+        // TODO: Add url for un-official results publishing
+            $menu .= "<li><a href='http://malawivote2014.org'>UN-OFFICIAL RESULTS</a></li>";
 
 		//TOOLS
 			if(Auth::instance()->has_permission('admin_ui', $user))
