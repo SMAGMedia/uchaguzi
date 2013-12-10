@@ -1,8 +1,15 @@
 UCHAGUZI Install integrated with the SMAG Network
 ================================================
 
-Development version hosted at http://uchaguzi-dev.smagmedia.net
+Please note that both:
+application/config/database.php
+application/i18n/en_US/installer.php
 
+...are removed from the Github commits (publishing) as they contain sensitive data for your environment.
+Make sure to pull these files from Ushahidi_web source and modify for your environment if you'd be running from this application from your web servers.
+Sando - 12/10/2013
+
+Development version hosted at http://uchaguzi-dev.smagmedia.net
 Sando - 12/08/2013
 
 
