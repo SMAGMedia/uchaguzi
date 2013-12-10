@@ -2,8 +2,8 @@ UCHAGUZI Install integrated with the SMAG Network
 ================================================
 
 Please note that both:
-application/config/database.php
-application/i18n/en_US/installer.php
+* application/config/database.php
+* application/i18n/en_US/installer.php
 
 ...are removed from the Github commits (publishing) as they contain sensitive data for your environment.
 Make sure to pull these files from Ushahidi_web source and modify for your environment if you'd be running from this application from your web servers.
