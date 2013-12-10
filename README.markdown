@@ -7,9 +7,11 @@ Please note that both:
 
 ...are removed from the Github commits (publishing) as they contain sensitive data for your environment.
 Make sure to pull these files from Ushahidi_web source and modify for your environment if you'd be running from this application from your web servers.
+
 Sando - 12/10/2013
 
 Development version hosted at http://uchaguzi-dev.smagmedia.net
+
 Sando - 12/08/2013
 
 
@@ -92,7 +94,7 @@ Installation
     Alternatively, you can obtain the release running the latest version  of the from [GitHub](https://github.com/ushahidi/Ushahidi_Web/archives/master) - the files are available in .zip and .tar.gz
     
     To unzip/extract the archive on a typical Unix/Linux command line:
-    
+
         tar -xvf Ushahidi_Web-xxxx.tar.gz
     
     or in the case of a zip file:
