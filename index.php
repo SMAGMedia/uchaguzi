@@ -41,7 +41,7 @@ $kohana_application = '/var/www/html/application';
  * by your application. Modules are enabled and disabled by the application
  * configuration file.
  *
- * This path can be absolute or relative to this file.
+ * This path can be absolute or relative to this file. Justin
  */
 $kohana_modules = '/var/www/html/modules';
 
