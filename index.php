@@ -10,7 +10,7 @@
 /**
  * This checks to see if the site is in maintenance mode. Put your site
  * in maintenance mode by putting a 'maintenance.php' file in the root
- * directory of your site. (Same directory as this index.php file) - Andrew
+ * directory of your site. (Same directory as this index.php file)
  *
  */
 if (file_exists('maintenance.php'))
@@ -41,7 +41,7 @@ $kohana_application = '/var/www/html/application';
  * by your application. Modules are enabled and disabled by the application
  * configuration file.
  *
- * This path can be absolute or relative to this file. Justin
+ * This path can be absolute or relative to this file.
  */
 $kohana_modules = '/var/www/html/modules';
 
