@@ -10,7 +10,7 @@
 /**
  * This checks to see if the site is in maintenance mode. Put your site
  * in maintenance mode by putting a 'maintenance.php' file in the root
- * directory of your site. (Same directory as this index.php file)
+ * directory of your site. (Same directory as this index.php file) - Andrew
  *
  */
 if (file_exists('maintenance.php'))
